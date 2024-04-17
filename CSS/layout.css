@@ -95,12 +95,30 @@ body{
 
 }
 
+.imagens img{
+    width: 500px; /* largura da imagem */
+
+}
+
 footer{
     background-color: #5fadcc;
     padding: 20px;
     text-align: center;
     margin-top: 10px;
 
+}
+
+.container{
+    background-image: url('../Imagens/horse-1201143_640.jpg');
+    height: 400px; /* altura da imagem */
+    background-size: cover;
+    background-position: center;   
+}
+
+.container p{
+    position: fixed;
+    bottom: 5%;
+    right: 10%;
 }
 
 @media screen  and (max-width: 1028px) {
