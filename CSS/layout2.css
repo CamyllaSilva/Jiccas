@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #aad6e7;
+    color: #000000;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.topo{
+    background-color: #9fa3e6;
+    padding: 30px;
+    margin: 0px;
+    text-align: center;
+    color: rgb(225, 240, 92);
+}
+
+.topo h1{
+    font-size: 50px;
+}
+
+.menuTopo{
+    overflow: hidden;
+    background-color: #1ad6cd;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+}
+
+.menuTopo ul{
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menuTopo ul li{
+    float: left;
+}
+
+.menuTopo a{
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: right;
+    background-color: aliceblue;
+    margin: 0 2px;
+    border-radius: 20px;
+
+}
+
+.menuTopo a:hover{
+    background-color: rgb(219, 217, 66);
+    color: #000;
+    font-weight: bold;
+}
+
+table td {
+    border: 1px solid #3e80d8;
+    padding: 5px;
+    text-align: center;
+}
+
+table th{
+    border: 1px solid #3e80d8;
+    padding: 5px;
+    text-align: center;
+    background-color: #9fa3e6;
+}
+
+table {
+    border-collapse: collapse;
+    display: block;
+    margin: 20px auto;
+    width: 50%;
+    font-size: larger;
+}
+
+table caption {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+footer {
+    background-color: #9fa3e6;
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
