@@ -1,143 +1,190 @@
-*{
+* {
     box-sizing: border-box;
 }
-body{
-    background-color: #aad6e7;
+
+body {
+    background-color: #ffffff;
     color: #000000;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
-.topo{
-    background-color: #9fa3e6;
+.topo {
+    background-color: #ffffff;
     padding: 30px;
     margin: 0px;
     text-align: center;
-    color: rgb(225, 240, 92);
-    
+    color: #000;
+    /* font-weight: bold; */
 
 }
 
-.topo h1{
+.imagemLogo {
+    width: 100px;
+    position: absolute;
+    top: 50px;
+    left: 500px;
+}
+
+.topo h1 {
     font-size: 50px;
 }
 
-.menuTopo{
+.menuTopo {
     overflow: hidden;
-    background-color: #1ad6cd;
+    background-color: #000000;
     text-align: center;
     position: sticky;
     top: 0px;
 }
 
-.menuTopo ul{
+.menuTopo ul {
     display: inline-block;
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-.menuTopo ul li{
+.menuTopo ul li {
     float: left;
 }
 
-.menuTopo a{
+.menuTopo a {
     display: block;
     color: #000000;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     float: right;
-    background-color: aliceblue;
+    background-color: #ffffff;
     margin: 0 2px;
     border-radius: 20px;
 
 }
 
-.menuTopo a:hover{
-    background-color: rgb(219, 217, 66);
+.menuTopo a:hover {
+    background-color: #00BB00;
     color: #000;
     font-weight: bold;
 }
 
-.corpo{
+.corpo {
     width: 904px;
     margin: 0 auto;
 }
 
-.corpo:after{
+
+
+.corpo:after {
     clear: both;
     content: "";
     display: table;
 }
 
-.esquerda{
+.esquerda {
     width: 75%;
     float: left;
 }
 
-.direita{
+.esquerda p{
+    text-align: center;
+}
+
+.direita {
     width: 25%;
     float: right;
 }
 
-.destaque{
-    background-color: #fff;
+.destaque {
+    background-color: #a7e6ee;
     padding: 20px;
     margin-top: 20px;
 }
 
-.imagens{
+.imagens {
     width: 100%;
     text-align: center;
     padding: 20px;
 
 }
 
-.imagens img{
-    width: 500px; /* largura da imagem */
+.imagens img {
+    width: 500px;
+    /* largura da imagem */
 
 }
 
-footer{
-    background-color: #5fadcc;
+table td {
+    border: 2px solid #207af0;
+    padding: 5px;
+    text-align: center;
+}
+
+table th {
+    border: 2px solid #207af0;
+    padding: 5px;
+    text-align: center;
+    background-color: #f0e986;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 0 auto;
+    font-size: larger;
+}
+
+table caption {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+
+footer {
+    background-color: #000000;
     padding: 20px;
     text-align: center;
     margin-top: 10px;
-
+    color: #ffffff;
+    /* Cor da letra */
 }
 
-.container{
-    background-image: url('../Imagens/horse-1201143_640.jpg');
-    height: 400px; /* altura da imagem */
+/* .container{
+    background-image: url('../Imagens/1.jfif');
+    height: 400px; /* altura da imagem 
     background-size: cover;
     background-position: center;   
-}
+} */
 
-.container p{
+.container p {
     position: fixed;
     bottom: 5%;
     right: 10%;
 }
 
-@media screen  and (max-width: 1028px) {
-    .esquerda, .direita{
+@media screen and (max-width: 1028px) {
+
+    .esquerda,
+    .direita {
         width: 100%;
         padding: 10px;
     }
-    
+
 }
 
-.corpo{
+.corpo {
     width: 100%;
     padding: 5px;
     margin: 0;
 }
 
-@media screen and (max-width: 400px){
-    .menuTopo ul li, .menuTopo a {
+@media screen and (max-width: 400px) {
+
+    .menuTopo ul li,
+    .menuTopo a {
         float: none;
         width: 100%;
-    } 
+    }
 }
